@@ -6,11 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import { Provider } from "react-redux";
 import { configureStore } from "@reduxjs/toolkit";
 import rootReducer from "./reducers";
+import {getBookings} from "./actions/booking.action";
 
 const store = configureStore({
     reducer: rootReducer,
     devTools: true, // False in prod!!
 });
+
+store.dispatch(getBookings());
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
