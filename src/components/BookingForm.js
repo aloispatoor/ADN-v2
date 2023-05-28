@@ -5,19 +5,19 @@ const BookingForm = () => {
     return (
         <Container>
             <Form>
-                <FormGroup className="mb-3" controlId="title">
+                <FormGroup className="m-3" controlId="title">
                     <FormLabel>Titre de l'événement</FormLabel>
                     <FormControl type="text" />
                 </FormGroup>
-                <FormGroup className="mb-3" controlId="start">
+                <FormGroup className="m-3" controlId="start">
                     <FormLabel>Débute le : </FormLabel>
                     <FormControl type="datetime-local"/>
                 </FormGroup>
-                <FormGroup className="mb-3" controlId="end">
+                <FormGroup className="m-3" controlId="end">
                     <FormLabel>Fini le : </FormLabel>
                     <FormControl type="datetime-local" placeholder="Fini : "/>
                 </FormGroup>
-                <FormGroup className="mb-3" controlId="description">
+                <FormGroup className="m-3" controlId="description">
                     <FormLabel>Décrivez l'événement</FormLabel>
                     <FormControl type="text"></FormControl>
                 </FormGroup>

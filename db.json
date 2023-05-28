@@ -3,8 +3,8 @@
     {
       "id": 1,
       "title": "Exemple d'événement",
-      "start": null,
-      "end": null,
+      "start": "03-01-2023",
+      "end": "03-12-2023",
       "description": "Description de l'événement",
       "allDay": false
     }

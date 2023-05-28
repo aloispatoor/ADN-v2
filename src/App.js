@@ -10,12 +10,12 @@ function App() {
       return (
         <div>
           <h1>Calendrier</h1>
-          <BookingForm/>
           <div className="content">
-              {!isEmpty && bookings.map((booking, index) =>
-                  (<Booking bookings={booking} key={index} />
+              {!isEmpty && bookings.map((item, index) =>
+                  (<Booking bookings={item} key={index} />
                   ))}
           </div>
+          <BookingForm/>
         </div>
       );
 }
