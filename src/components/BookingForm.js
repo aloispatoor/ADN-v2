@@ -1,16 +1,29 @@
 import React from "react";
+import {Container, Form, FormControl, FormGroup, FormLabel} from "react-bootstrap";
 
 const BookingForm = () => {
     return (
-        <div className="form-container">
-            <form>
-                <input type="text" placeholder="Titre du poste" />
-                <input type="datetime-local" placeholder="Débute : "/>
-                <input type="datetime-local" placeholder="Fini : "/>
-                <textarea placeholder="Décrivez l'événement"></textarea>
-                <input type="submit" value="Envoyer" />
-            </form>
-        </div>
+        <Container>
+            <Form>
+                <FormGroup className="mb-3" controlId="title">
+                    <FormLabel>Titre de l'événement</FormLabel>
+                    <FormControl type="text" />
+                </FormGroup>
+                <FormGroup className="mb-3" controlId="start">
+                    <FormLabel>Débute le : </FormLabel>
+                    <FormControl type="datetime-local"/>
+                </FormGroup>
+                <FormGroup className="mb-3" controlId="end">
+                    <FormLabel>Fini le : </FormLabel>
+                    <FormControl type="datetime-local" placeholder="Fini : "/>
+                </FormGroup>
+                <FormGroup className="mb-3" controlId="description">
+                    <FormLabel>Décrivez l'événement</FormLabel>
+                    <FormControl type="text"></FormControl>
+                </FormGroup>
+                <FormControl variant="primary" type="submit" value="Envoyer" />
+            </Form>
+        </Container>
     );
 };
 
