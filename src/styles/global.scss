@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+a{
+  color: black;
+  transition: all .5s ease-in-out;
+  text-decoration: none;
+}
+a:hover{
+  color: $violet;
+}
+
+h1{
+
+  color: black;
+}
+
+h2{
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 5px;
+}
+h3{
+  color: black;
+  text-transform: uppercase;
+}
+
+//CLASS
+.walkwayFont{
+  font-family: walkway_rounded, sans-serif;
+}
+
+.bold{
+  font-family: firaSans_bold, sans-serif;
+  font-weight: bold;
+}
+
+.icons{
+  font-size: 10em;
+}
+
+.noOpacity{
+  opacity: 0;
+}
+
+.opacity{
+  opacity: 1;
+  transition: all .5s ease;
+}
+
+.displayNone{
+  display: none;
+}
+
+.btn-danger{
+  color: white;
+}

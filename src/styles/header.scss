@@ -1,0 +1,67 @@
+//GENERAL HEADER
+header{
+  width: 100%;
+  height: 85vh;
+}
+
+//IMAGES IN THE BACK
+.backgroundImg {
+  width: 100%;
+  @-moz-document url-prefix() {
+    #title {
+      h1 {
+        z-index: 102;
+      }
+    }
+    .imgSize {
+      z-index: 102;
+    }
+  }
+}
+
+//CAROUSEL
+.carousel-inner{
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  width: 100%;
+  height: 85vh;
+  overflow:hidden;
+  background-color: #cdcdcd;
+  .carousel-item {
+    position: absolute;
+    width: 100vw;
+    height: inherit;
+    box-sizing: border-box;
+    top: 0;
+    .slide {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+//TITLE
+#title{
+  @include flex($dir: column);
+  padding-top : 5em;
+  h1{
+    @include glass;
+    display: inline-block;
+    font-size: 2.5em;
+    letter-spacing: 10px;
+    margin: 2% 1em;
+    text-align:center;
+    padding: 0.3em;
+  }
+  .imgSize{
+    @include glass;
+    padding: 1em;
+    width: 30%;
+    margin: 0 auto;
+    img{
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+}
