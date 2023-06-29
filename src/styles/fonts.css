@@ -1,0 +1,32 @@
+@font-face {
+  font-family: firaSans_regular;
+  src: url(../assets/fonts/Fira_Sans/FiraSans-Regular.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: firaSans_bold;
+  src: url(../assets/fonts/Fira_Sans/FiraSans-Bold.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: walkway_rounded;
+  src: url(../assets/fonts/walkway/Walkway-rounded.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: walkway_black;
+  src: url(../assets/fonts/walkway/Walkway-Black.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: walkway_expandBold;
+  src: url(../assets/fonts/walkway/Walkway-Expand-Bold.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: walkway_expandUltraBold;
+  src: url(../assets/fonts/walkway/Walkway-Expand-UltraBold.ttf) format("truetype");
+  font-display: swap;
+}
+
+/*# sourceMappingURL=fonts.css.map */

@@ -5,6 +5,11 @@
   list-style-type: none;
 }
 
+body{
+  font-family: firaSans_regular, sans-serif;
+  scroll-behavior: smooth;
+}
+
 a{
   color: black;
   transition: all .5s ease-in-out;
@@ -15,7 +20,7 @@ a:hover{
 }
 
 h1{
-
+  font-family: walkway_expandUltraBold, sans-serif;
   color: black;
 }
 

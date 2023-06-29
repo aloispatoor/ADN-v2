@@ -9,9 +9,9 @@
   @include flex($just: flex-end, $align: center);
 }
 .navbar__links{
-  @include flex($align: center);
+  @include flex;
   gap: 2em;
-  padding-right: 2em;
+  padding: 2em;
   text-transform: uppercase;
 }
 .navbar__link{
@@ -63,6 +63,9 @@ a{
 
 //MENU BURGER
 @media screen and (max-width:900px) {
+  .navbar{
+    position: fixed;
+  }
   .navbar__links {
     @include flex($dir: column);
     position: fixed;
