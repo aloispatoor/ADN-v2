@@ -1,5 +1,5 @@
 import {useState} from "react";
-import '../styles/app.scss'
+import '../styles/app.scss';
 import logo from "../assets/img/logo.png";
 import {carousel} from "../datas/carousel";
 import Carousel from "react-bootstrap/Carousel";
@@ -16,19 +16,19 @@ function NavBar(){
         <nav className={`navbar ${showLinks ? "showNav" : "hideNav"} `}>
             <ul className='navbar__links'>
                 <li className='navbar__item'>
-                    <a href="/" className='navbar__link'>accueil</a>
+                    <a href="/" className='navbar__link special-anim'>accueil</a>
                 </li>
                 <li className='navbar__item'>
-                    <a href="/about" className='navbar__link'>à propos</a>
+                    <a href="/about" className='navbar__link special-anim'>à propos</a>
                 </li>
                 <li className='navbar__item'>
-                    <a href="/contact" className='navbar__link'>contact</a>
+                    <a href="/contact" className='navbar__link special-anim'>contact</a>
                 </li>
                 <li className='navbar__item'>
-                    <a href="/calendar" className='navbar__link'>nos rendez-vous</a>
+                    <a href="/calendar" className='navbar__link special-anim'>nos rendez-vous</a>
                 </li>
                 <li className='navbar__item'>
-                    <a href="/status" className='navbar__link'>nos statuts</a>
+                    <a href="/status" className='navbar__link special-anim'>nos statuts</a>
                 </li>
                 <li className='navbar__item'>
                     <a href="https://www.helloasso.com/associations/au-dela-des-normes/adhesions/adhesion-2023-1" className='navbar__link'>adhérer</a>
